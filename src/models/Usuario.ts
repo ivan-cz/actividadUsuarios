@@ -7,12 +7,11 @@ import { modelOptions, prop, getModelForClass } from "@typegoose/typegoose";
   },
 })
 export class Usuario {
-  @prop({ required: true, trim: true })
+  @prop({ required: true, trim: true, unique: true })
   public username!: string;
-  @prop({ required: true, trim: true, unique: true })
+  @prop({ required: true, trim: true })
   public biografia!: string;
-  @prop({ required: true, trim: true, unique: true })
+  @prop({ required: true, trim: true })
   public seguidores_count!: string;
 }
-
 export const UsuarioModel = getModelForClass(Usuario);
