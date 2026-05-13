@@ -1,0 +1,39 @@
+{
+  "name": "actividadusuarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-cz/actividadUsuarios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ivan-cz/actividadUsuarios/issues"
+  },
+  "homepage": "https://github.com/ivan-cz/actividadUsuarios#readme",
+  "dependencies": {
+    "@typegoose/typegoose": "^13.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1",
+    "mysql2": "^3.22.0",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.5.1",
+    "typescript": "^6.0.2"
+  }
+}
